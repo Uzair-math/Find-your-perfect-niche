@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.sec1{
+    background-image: url(./banner.jpg);
+    height: 550px !important;
+    background-size: cover;
+    background-position:center;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: #f1c50d;
+    position: absolute;
+    right: 14% !important;
+    top: 74% !important;
+    display: flex !important;
+    align-items: center;
+}
+.box1 p{
+font-size: 20px !important;
+padding-left: 70px !important;
+}
+.sec2 ul li::before{
+    content: "";
+    color: #1bc379 !important;
+    font-size: 20px !important;
+}
+.box3{
+    width: 150px !important;
+
+    height: 150px !important;
+    background-color: #f1c50d;
+    position: absolute;
+    right: 0% !important;
+    
+}
+.box3 i{
+    position: absolute;
+    right: 35% !important;
+    top: 30% !important;
+    font-size: 50px !important;
+
+}
+.sec4 .col-12 .sec4-image img{
+    width: 80px !important;
+    height: 80px !important;
+    position: absolute;
+    bottom: 80% !important;
+    left: 7%;
+    
+}
+.sec4 .col-12 .sec4-image1 img{
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute;
+    bottom: 80% !important; 
+    left: 7%;   
+}
+.sec4 .col-12 .sec4-total{
+    height: 270px !important;
+    padding: 5px 15px !important;
+}
+.sec4 .col-12 .sec4-total i{
+    color: #1bc379;
+    font-size: 60px;
+
+}
+
+.sec7 .sec7-image img{
+    height: 237px !important;
+
+}
+.sec8 select{
+    border: none !important;
+    margin: 10px 0px !important;
+}
+.sec8 select:focus{
+    border: none !important;
+    
+}
+.sec8 select option{
+    height: 80px !important;
+    background-color: lightgrey !important;
+    padding-left: 20px !important;
+}
+.sec8 .sec8-image{
+    background-image: url(./background.jpg);
+    height: 300px !important;
+    width: 300px !important;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.sec9 .sec9-image{
+    background-image: url(./background\ 1.jpg);
+    height: 150px !important;
+    width: 150px !important;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.sec9 .sec9-image1{
+    background-image: url(./kala\ image.jpg);
+    height: 150px !important;
+    width: 150px !important;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.sec9 .sec9-image2{
+    background-image: url(./backgroup\ 3.jpg);
+    height: 150px !important;
+    width: 150px !important;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.sec9 .sec9-image3{
+    background-image: url(./background\ 4.jpg);
+    height: 150px !important;
+    width: 150px !important;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.sec10{
+    background-image: url(./banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sec10 input{
+    border: none !important;
+    border-bottom: 2px solid black !important;
+}
+.sec10 select{
+    border: none !important;
+    border-bottom: 2px solid black !important;
+}
+.sec10 textarea{
+    border: none !important;
+    border-bottom: 2px solid black !important;
+}
+footer{
+    background-color: #333333;
+    min-height: 99px !important;
+}
+footer a{
+    color: #ebeafe;
+}
+
+@media screen and (max-width:576px) and (min-width:320px){
+    .sec4-image img{
+        width: 80px !important;
+        height: 80px !important;
+        border-radius: 50% !important;
+        background-size: cover;
+        background-position: center;
+    }
+    .sec4-image1 img{
+        width: 80px !important;
+        height: 80px !important;
+        border-radius: 50% !important;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 5% !important;
+    }
+    .sec1 .sec1-heading{
+        padding-top: 184px !important;
+    }
+   .box1{
+    width: 202px !important;
+    height: 202px !important;
+    margin-top: 126px !important;
+
+   }
+   .box1 span{
+    font-size: 21px !important;
+    font-weight: 400;
+   }
+   .sec2{
+    margin-top: 95px !important;
+   }
+   .sec3 .row{
+    padding-top: 180px !important;
+   }
+   .box3{
+    margin-top: 156px !important;
+   }
+   .sec3 .row .sec3-style{
+    width: 95%;
+    margin: 0px 10px !important;
+   }
+   .sec4 .sec4-total{
+    margin-top: 65px !important;
+   }
+ .sec7 .row .col-12 .sec7-image img{
+    margin:8px 0px !important;
+ }
+ .sec9 .sec9-card1{
+    text-align: center !important;
+ }
+ .sec9 .sec9-card2{
+    text-align: center !important;
+    margin: 10px 0px !important;
+ }
+ .sec9 .sec9-card3{
+    text-align: center !important;
+ }
+ .sec9 .sec9-card4{
+    text-align: center !important;
+ }
+ .sec10{
+    height: 300px !important;
+ }
+.sec10 .col-lg-7{
+    margin-top: 30px !important;
+}
+footer{
+    margin-top: 300px !important;
+}
+}
